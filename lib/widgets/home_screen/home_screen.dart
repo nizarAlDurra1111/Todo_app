@@ -24,7 +24,6 @@ class _HomeScreenState extends State<HomeScreen> {
         if (state.authStatus == AuthStatus.auth) {
           return const MainScreen();
         } else {
-          print()
           return const LoginScreen();
         }
       });
